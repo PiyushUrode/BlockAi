@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: 'SFM', Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(1, 1, 1);
+
+  --w3m-accent-color: #41d3c5 !important;
+  --w3m-background-color: #f019de !important;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  
+}
+
+
+
+@font-face {
+  font-family: 'SFR';
+  font-style: normal;
+  src: url('../src/assets/font/sf-pro-display/SFPRODISPLAYREGULAR.ttf') format('truetype');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'SFM';
+  font-style: normal;
+  src: url('../src/assets/font/sf-pro-display/SFPRODISPLAYMEDIUM.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFB';
+  font-style: normal;
+  src: url('../src/assets/font/sf-pro-display/SFPRODISPLAYBOLD.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFRI';
+  font-style: normal;
+  src: url('../src/assets/font/sf-pro-display/SFPRODISPLAYLIGHTITALIC.ttf') format('truetype');
+  font-display: swap;
+}
+
+
+
+
+body {
+  font-family: 'SFM', sans-serif;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'SFM', sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+  font-weight: 600;
+
+  word-spacing: 0.1em;
+}
+
+p {
+  font-family: 'SFR', sans-serif;
+  line-height: 1.6;
+  word-spacing: 0.1em;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  
+
+}
+/* Global styles for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+button, span {
+  font-family: 'SFM', sans-serif;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+.content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* index.css or a global CSS file imported into your app */
+.text-gradient {
+  background: linear-gradient(90deg,rgba(255, 60, 172, 1) 0%, rgba(160, 32, 240, 1) 50%, rgba(110, 110, 255, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-border {
+  background: linear-gradient(90deg,rgba(255, 60, 172, 1) 0%, rgba(160, 32, 240, 1) 50%, rgba(110, 110, 255, 1) 100%);
+}
+
+.bg-slider {
+background: linear-gradient(90deg,rgba(255, 60, 172, 1) 0%, rgba(160, 32, 240, 1) 50%, rgba(110, 110, 255, 1) 100%);;
+
+}
+
+
+
+
+.border-gradient {
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, rgba(231, 183, 100, 1), rgba(143, 106, 64, 1));
+  border-image-slice: 1;
+}
+
+
+.main-text {
+    background: #ff3cac;
+    background: linear-gradient(to right, #ff3cac, #a020f0, #6e6eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-bg {
+    background: #ff3cac;
+    background: linear-gradient(to right, #ff3cac, #a020f0, #6e6eff);
+   
+}
