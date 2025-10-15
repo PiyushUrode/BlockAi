@@ -136,7 +136,7 @@ const S6Roadmap = () => {
 
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-3 main-text">
+        <h1 className="text-3xl md:text-5xl font-bold mb-3 main-text">
           Roadmap
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-white">

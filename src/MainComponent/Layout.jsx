@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
       w-full 
       lg:w-[30%]
       hidden
-      md:block
+      lg:block
       lg:sticky 
       lg:top-10 
       self-start

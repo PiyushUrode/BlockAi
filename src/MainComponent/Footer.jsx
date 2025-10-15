@@ -68,36 +68,36 @@ const Footer = () => {
             <div>
               <h3 className="text-white font-semibold mb-4">Links</h3>
               <ul className="space-y-2 text-sm">
-                <li><Link to="#">Whitepaper</Link></li>
-                <li><Link to="#">Docs</Link></li>
-                <li><Link to="#">Blog</Link></li>
+                <li><a href="#features">Key Features</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Blog</a></li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-white font-semibold mb-4">Products</h3>
               <ul className="space-y-2 text-sm">
-                <li><Link to="#">Launchpad</Link></li>
-                <li><Link to="#">AI Bots</Link></li>
-                <li><Link to="#">AI Analyzer</Link></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#">AI Bots</a></li>
+                <li><a href="#">AI Analyzer</a></li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-white font-semibold mb-4">Presale</h3>
               <ul className="space-y-2 text-sm">
-                <li><Link to="#">How to Buy</Link></li>
-                <li><Link to="#">Don't have a wallet?</Link></li>
-                <li><Link to="#">Support</Link></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#">Don't have a wallet?</a></li>
+                <li><a href="#">Support</a></li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-white font-semibold mb-4">BAI Token</h3>
               <ul className="space-y-2 text-sm">
-                <li ><Link to="#">Tokenomics</Link></li>
-                <li><Link to="#">Staking</Link></li>
-                <li><Link to="#roadmap">Roadmap</Link></li>
+                <li ><a href="#">Tokenomics</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#join">Join</a></li>
               </ul>
             </div>
           </div>
@@ -109,9 +109,9 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row items-center justify-between text-sm text-gray-400 gap-2">
           <div className="flex flex-wrap gap-4">
-            <Link to="#">Terms and Legal</Link>
-            <Link to="#">Privacy & Cookie Policy</Link>
-            <Link to="#">Risk Disclosure</Link>
+            <a href="#tokenomics">Terms and Legal</a>
+            <a href="#">Privacy & Cookie Policy</a>
+            <a href="#">Risk Disclosure</a>
           </div>
 
           <p className="text-gray-400">

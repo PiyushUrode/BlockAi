@@ -18,7 +18,7 @@ const S2About = () => {
 
       {/* Headings */}
       <div className="text-center relative z-10 md:mb-12">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3">
+        <h2 className="text-3xl md:text-5xl font-bold mb-3">
           Key Features
         </h2>
         <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gradient">

@@ -314,7 +314,7 @@ leftDetails: {
 
   return (
     <section className="bg-black text-white py-5 md:py-10  px-5 relative" id="mission">
-      <h1 className="text-4xl md:text-6xl font-bold text-gradient text-center mb-12">
+      <h1 className="text-3xl md:text-5xl font-bold text-gradient text-center mb-12">
         Our Mission
       </h1>
 

@@ -35,8 +35,8 @@ const S7Exchanges = () => {
   const images = [Ex1, Ex2, Ex3, Ex4, Ex5, Ex6, Ex7, Ex8, Ex9, Ex10, Ex11, Ex12, Ex13, Ex14 , Ex15, Ex16, Ex17, Ex18, Ex19, Ex20, Ex21, Ex22, Ex23, Ex24, Ex25 , Ex26, Ex27, Ex28, Ex29, Ex30, Ex31];
 
   return (
-    <div className="flex flex-col gap-8 items-center py-5 md:py-10  px-5 w-full">
-      <h1 className="text-base md:text-2xl lg:text-5xl text-gradient font-bold text-center">
+    <div className="flex flex-col gap-8 items-center py-5 md:py-10  px-5 w-full" id='technology'>
+      <h1 className="text-3xl md:text-5xl text-gradient font-bold text-center">
         Powered By Technology
       </h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 max-w-7xl w-full">
