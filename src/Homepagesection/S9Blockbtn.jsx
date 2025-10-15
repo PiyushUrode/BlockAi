@@ -3,7 +3,7 @@ import logo from "../assets/logo/icon1.png"
 
 const S9Blockbtn = () => {
   return (
-    <div className='bg-black text-white py-5 md:py-10  px-5 flex flex-col justify-center items-center text-center' id='join'>
+    <div className='bg-black text-white py-5 md:py-10  px-2 md:px-5 flex flex-col justify-center items-center text-center' id='join'>
 
       {/* Header */}
       <h1 className="text-md sm:text-xl md:text-3xl font-bold mb-4 main-text">

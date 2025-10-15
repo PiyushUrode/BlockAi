@@ -31,7 +31,7 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="flex flex-col gap-8 items-center py-5 md:py-10  px-5 max-w-7xl mx-auto">
+    <div className="flex flex-col gap-8 items-center py-5 md:py-10  px-2 md:px-5 max-w-7xl mx-auto">
       <h1 className="text-3xl md:text-5xl font-bold text-center text-gradient">
         Frequently Asked Questions
       </h1>

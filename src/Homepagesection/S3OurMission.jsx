@@ -313,7 +313,7 @@ leftDetails: {
   ];
 
   return (
-    <section className="bg-black text-white py-5 md:py-10  px-5 relative" id="mission">
+    <section className="bg-black text-white py-5 md:py-10  px-2 md:px-5  relative" id="mission">
       <h1 className="text-3xl md:text-5xl font-bold text-gradient text-center mb-12">
         Our Mission
       </h1>
@@ -324,7 +324,7 @@ leftDetails: {
             key={index}
             className="flex flex-col sm:flex-row justify-between 
               backdrop-blur-md bg-gradient-to-b from-[#111] to-[#000] 
-              rounded-3xl px-8 py-8 shadow-[0_0_30px_rgba(128,0,255,0.15)] 
+              rounded-3xl px-2 md:px-8 py-8 shadow-[0_0_30px_rgba(128,0,255,0.15)] 
               border border-gray-800 hover:shadow-[0_0_40px_rgba(155,0,255,0.25)] 
               transition-all duration-300 items-center gap-6"
           >
@@ -337,14 +337,14 @@ leftDetails: {
                   details: item.leftDetails,
                 })
               }
-              className="flex flex-row overflow-hidden items-center gap-4 w-full sm:w-1/2 justify-center sm:justify-start cursor-pointer hover:scale-[1.02] transition-transform"
+              className="flex flex-row flex-wrap overflow-hidden items-center gap-4 w-full sm:w-1/2 justify-center sm:justify-start cursor-pointer hover:scale-[1.02] transition-transform"
             >
               <img
                 src={item.leftImg}
                 alt="mission"
                 className="  w-[70px]  h-[70px]  object-contain"
               />
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 ">
                 <p className="text-sm font-semibold w-[13rem]">
                   {item.leftText}
                 </p>
@@ -361,7 +361,7 @@ leftDetails: {
                   details: item.rightDetails, // ✅ fixed key name here
                 })
               }
-              className="flex flex-row items-center gap-4 w-full sm:w-1/2 justify-center sm:justify-end cursor-pointer hover:scale-[1.02] transition-transform"
+              className="flex flex-row  flex-wrap items-center gap-4 w-full sm:w-1/2 justify-center sm:justify-end cursor-pointer hover:scale-[1.02] transition-transform"
             >
               <img
                 src={item.rightImg}

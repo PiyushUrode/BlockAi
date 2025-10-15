@@ -57,11 +57,11 @@ const Navbar = () => {
 
         {/* Right Section */}
         <div className="flex md:order-2 sm:gap-5 space-x-4 md:space-x-0 rtl:space-x-reverse ">
-          <div className="flex gap-3 sm:gap-1  items-center bg-gradient-border shadow-md  shadow-md  p-[1px]">
-            <Link smooth to="/" onClick={closeMenu} className="bg-black hover:animate-pulse duration-300 hover:sc">
+          <div className="flex gap-3 sm:gap-1  items-center bg-gradient-border rounded-md   shadow-md  p-[1px]">
+            <Link smooth to="/" onClick={closeMenu} className="bg-black hover:animate-pulse rounded-md  duration-300 hover:sc">
 
                 <button
-                  className="relative  rounded-lg   px-4 py-1   text-white   sm:h-full transition-all duration-300 hover:scale-105"
+                  className="relative  rounded-lg   px-4 py-1   text-white   sm:h-full  transition-all duration-300 hover:scale-105"
                   onClick={() => navigate("/")}
                 >
 

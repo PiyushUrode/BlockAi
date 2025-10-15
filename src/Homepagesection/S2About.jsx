@@ -3,7 +3,7 @@ import about1 from "../assets/About/abt2.mp4";
 
 const S2About = () => {
   return (
-    <section className="relative text-white w-full  py-5 md:py-10  px-5 overflow-hidden flex flex-col items-center justify-center" id="features">
+    <section className="relative text-white w-full  py-5 md:py-10  px-2 md:px-5 overflow-hidden flex flex-col items-center justify-center" id="features">
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover opacity-30"
