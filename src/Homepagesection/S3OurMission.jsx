@@ -337,7 +337,7 @@ leftDetails: {
                   details: item.leftDetails,
                 })
               }
-              className="flex flex-row flex-wrap overflow-hidden items-center gap-4 w-full sm:w-1/2 justify-center sm:justify-start cursor-pointer hover:scale-[1.02] transition-transform"
+              className="flex flex-row  flex-wrap overflow-hidden items-center gap-4 w-full sm:w-1/2 justify-center sm:justify-start cursor-pointer hover:scale-[1.02] transition-transform"
             >
               <img
                 src={item.leftImg}
@@ -345,13 +345,14 @@ leftDetails: {
                 className="  w-[70px]  h-[70px]  object-contain"
               />
               <div className="flex flex-col gap-2 text-center sm:text-left ">
-                <p className="text-sm font-semibold md:w-[13rem]">
+                <p className="text-sm md:text-xl font-semibold md:w-[13rem]">
                   {item.leftText}
                 </p>
-                <p className="text-sm text-gray-400">{item.leftParagraph}</p>
+                <p className="text-sm md:text-base text-gray-400">{item.leftParagraph}</p>
+                <p className="hover:text-purple-500">Learn More</p>
               </div>
             </div>
-
+ {/* <div className="w-[1px] h-[200px] bg-slider border-[1px] border-purple-500 "></div> */}
             {/* Right Side */}
             <div
               onClick={() =>
@@ -369,10 +370,11 @@ leftDetails: {
                 className="w-[70px] h-[70px] object-contain"
               />
               <div className="flex flex-col gap-2 text-center sm:text-left">
-                <p className="text-sm font-semibold md:w-[13rem]">
+                <p className="text-sm md:text-xl font-semibold md:w-[13rem]">
                   {item.rightText}
                 </p>
-                <p className="text-sm text-gray-400">{item.rightParagraph}</p>
+                <p className="text-sm md:text-base text-gray-400">{item.rightParagraph}</p>
+                                <p className="hover:text-purple-500">Learn More</p>
               </div>
             </div>
           </div>
@@ -382,7 +384,7 @@ leftDetails: {
       {/* Popup Modal */}
       {selectedMission && (
         <div className="fixed inset-0 bg-black/70 flex justify-center items-center z-50 backdrop-blur-sm">
-          <div className="bg-[#111] border border-gray-700 p-8 rounded-3xl w-[90%] sm:w-[600px] shadow-2xl overflow-y-auto max-h-[90vh]">
+          <div className="bg-[#111] border  shadow-[0_0_15px_] border-white shadow-white p-8 rounded-3xl w-[90%] sm:w-[600px] shadow-2xl overflow-y-auto max-h-[90vh]">
             <h2 className="text-2xl font-bold mb-5 text-pink-500 text-center">
               {selectedMission.title}
             </h2>

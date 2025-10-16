@@ -8,17 +8,6 @@ export default {
     extend: {
 
  fontFamily: {
-        gilroy: ['Gilroy', 'sans-serif'],
-        gilroyB: ['gilroyB', 'sans-serif'],
-        gilroyH: ['gilroyH', 'sans-serif'],
-        gilroyR: ['gilroyR', 'sans-serif'],
-        gilroyM: ['gilroyM', 'sans-serif'],
-        gilroyL: ['gilroyL', 'sans-serif'],
-        cinzel: ['Cinzel', 'serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
-        nunito: ['Nunito', 'sans-serif'],
-        poppins: ['poppins', 'sans-serif'],
-        poppinsb: ['poppinsb', 'sans-serif'],
         latoB: ['latoB', 'sans-serif'],
       },
 

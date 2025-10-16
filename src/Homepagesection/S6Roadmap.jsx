@@ -132,7 +132,7 @@ const S6Roadmap = () => {
   ];
 
   return (
-    <div className='bg-black text-white py-5 md:py-10  px-2 md:px-5 font-sans relative overflow-hidden' id='roadmap'>
+    <div className='bg-black text-white py-5 md:py-10  px-2 md:px-5  relative overflow-hidden' id='roadmap'>
 
       {/* Header */}
       <div className="text-center mb-12">
