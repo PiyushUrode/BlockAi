@@ -344,8 +344,8 @@ leftDetails: {
                 alt="mission"
                 className="  w-[70px]  h-[70px]  object-contain"
               />
-              <div className="flex flex-col gap-2 ">
-                <p className="text-sm font-semibold w-[13rem]">
+              <div className="flex flex-col gap-2 text-center sm:text-left ">
+                <p className="text-sm font-semibold md:w-[13rem]">
                   {item.leftText}
                 </p>
                 <p className="text-sm text-gray-400">{item.leftParagraph}</p>
@@ -361,14 +361,14 @@ leftDetails: {
                   details: item.rightDetails, // ✅ fixed key name here
                 })
               }
-              className="flex flex-row  flex-wrap items-center gap-4 w-full sm:w-1/2 justify-center sm:justify-end cursor-pointer hover:scale-[1.02] transition-transform"
+              className="flex flex-row  flex-wrap items-center gap-4 w-full sm:w-1/2 justify-center sm:justify-start cursor-pointer hover:scale-[1.02] transition-transform"
             >
               <img
                 src={item.rightImg}
                 alt="mission"
                 className="w-[70px] h-[70px] object-contain"
               />
-              <div className="flex flex-col gap-2 text-right sm:text-left">
+              <div className="flex flex-col gap-2 text-center sm:text-left">
                 <p className="text-sm font-semibold md:w-[13rem]">
                   {item.rightText}
                 </p>

@@ -45,33 +45,37 @@ const Presale = () => {
 
     return () => clearInterval(interval);
   }, []);
-
+ 
 
 
   return (
-<div className="w-full bg-[#0e0e0e] rounded-2xl border border-[#2a2a2a] p-5 text-white shadow-[0_0_25px_rgba(255,255,255,0.4)]">
+<div className="w-full bg-black rounded-2xl border border-[#2a2a2a] p-5 text-white shadow-[0_0_25px_] border-white shadow-white">
 
       {/* Header */}
       <div className="text-center mb-3">
-        <p className="text-lg font-semibold">
-          Buy <span className="text-pink-500">$BAI</span> Before Price Increases!
+        <p className="text-lg font-semibold flex justify-center align-middle gap-2">
+         
+         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12.5" cy="12.5" r="12" fill="#FF3CAC" fill-opacity="0.09"></circle><circle cx="12.4998" cy="12.4998" r="8.13259" fill="#FF3CAC" fill-opacity="0.29"></circle><circle cx="12.4971" cy="12.4971" r="3.99708" fill="#FF3CAC"></circle></svg>
+         
+          Buy <span className="text-pink-500"> 
+             $BAI</span> Before Price Increases!
         </p>
-      <div className="flex justify-center gap-2 mt-2 text-pink-400 font-semibold">
+      <div className="flex justify-around px-5 gap-2 mt-2 text-[#ff3cac] font-semibold border-[#ff3cac] border-2 rounded-xl">
           <span>{timeLeft.days}D</span> : <span>{timeLeft.hours}H</span> :{" "}
           <span>{timeLeft.minutes}M</span> : <span>{timeLeft.seconds}S</span>
         </div>
       </div>
 
       {/* Price Info */}
-      <div className="bg-[#1a1a1a] rounded-xl p-4 flex justify-between items-center mb-4">
+      <div className="bg-[#1a1a1a] rounded-xl p-4 flex justify-between items-center mb-4 ">
         <div>
-          <p className="text-sm text-gray-400">
-            1 $BAI = <span className="text-pink-400">$0.00048</span>
+          <p className="text-sm text-white">
+            1 $BAI = <span className="text-[#ff3cac]">$0.00048</span>
           </p>
           <h2 className="text-2xl font-bold">$20,725</h2>
-          <p className="text-xs text-gray-400">Total Raised USD</p>
+          <p className="text-xs text-white">Total Raised USD</p>
         </div>
-        <div className="text-xs text-right text-gray-400">
+        <div className="text-xs text-right text-white">
           <p>Next Price = $0.0005</p>
           <p>Listing Price = $0.025</p>
         </div>
@@ -81,7 +85,7 @@ const Presale = () => {
       <div className="mb-3">
         <div className="flex justify-between mb-2">
           <p>Choose Payment Network</p>
-          <button className="text-pink-400 text-sm">Buy with Card</button>
+          <button className="text-[#ff3cac] text-sm">Buy with Card</button>
         </div>
         <div className="flex justify-between gap-1 flex-wrap   ">
           <div className="flex flex-row gap-1  justify-center items-center align-middle rounded-xl  bg-gray-600 hover:bg-black  p-[6px] text-white hover:text-black cursor-pointer">
@@ -112,8 +116,8 @@ const Presale = () => {
           </div>
  <div className="flex flex-col ">
            <p className="font-semibold">0.000242</p>
-                  <div className="text-xs text-gray-400 ">
-          $1.00 | Balance: <span className="text-pink-400">0</span>
+                  <div className="text-xs text-white ">
+          $1.00 | Balance: <span className="text-[#ff3cac]">0</span>
         </div>
  </div>
         </div>
@@ -138,9 +142,9 @@ const Presale = () => {
       {/* Bonus Section */}
       <div className="flex justify-between text-xs text-center mb-4">
         <span>$BAI Bonus:</span>
-        <span className="text-pink-400">+10% from $1K</span>
-        <span className="text-pink-400">+30% from $2.5K</span>
-        <span className="text-pink-400">+70% from $5K</span>
+        <span className="text-[#ff3cac]">+10% from $1K</span>
+        <span className="text-[#ff3cac]">+30% from $2.5K</span>
+        <span className="text-[#ff3cac]">+70% from $5K</span>
       </div>
 
       {/* Connect Wallet */}
@@ -148,18 +152,18 @@ const Presale = () => {
         Connect Wallet
       </button>
 
-      <p className="text-xs text-gray-500 mt-3 text-center">
-        By proceeding, you agree to our{" "}
-        <span className="underline cursor-pointer">Terms</span> and{" "}
-        <span className="underline cursor-pointer">Privacy Policy</span>
+      <p className="text-xs text-white mt-3 text-center">
+By proceeding, you agree to our 
+        <span className="underline cursor-pointer text-[#ff3cac]">Terms of Token Sale </span> and{" "}
+        <span className="underline cursor-pointer text-[#ff3cac]" >Privacy Policy</span>
       </p>
 
       {/* Invite Section */}
       <div className="bg-[#1a1a1a] rounded-xl p-3 mt-4 flex justify-between items-center">
         <p className="text-xs">
-          Get <span className="text-pink-400">10%</span> from every referral’s purchase
+          Get <span className="text-[#ff3cac]">10%</span> from every referral’s purchase
         </p>
-        <button className="bg-[#400040] text-pink-400 text-xs px-3 py-1 rounded-lg">
+        <button className="bg-[#400040] text-[#ff3cac] text-xs px-3 py-1 rounded-lg">
           Invite & Earn ✨
         </button>
       </div>

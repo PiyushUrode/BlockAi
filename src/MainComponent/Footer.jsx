@@ -95,7 +95,7 @@ const Footer = () => {
             <div>
               <h3 className="text-white font-semibold mb-4">BAI Token</h3>
               <ul className="space-y-2 text-sm">
-                <li ><a href="#">Tokenomics</a></li>
+                <li ><a href="#tokenomics ">Tokenomics</a></li>
                 <li><a href="#roadmap">Roadmap</a></li>
                 <li><a href="#join">Join</a></li>
               </ul>
